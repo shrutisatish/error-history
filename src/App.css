@@ -1,0 +1,78 @@
+.errors {
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.errors-count {
+  margin: 5px;
+  margin-left: 80px;
+  color: black;
+  float: left;
+}
+
+th, td {
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+}
+
+.error-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 90%;
+  color: black;
+  margin:auto;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.error-table, th, td {
+  border: 1px solid black;
+}
+
+.filter-btn {
+  float:right;
+  cursor: pointer;
+}
+
+.option-list {
+  background: white;
+  border: 1px solid black;
+  padding: 15px;
+  position: fixed;
+  width: 200px;
+  overflow: hidden;
+  margin-left: -13%;
+}
+
+.btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: #000;
+  line-height: 1;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  float: left;
+  display: inline-flex;
+  width: 100%; 
+}
+
+input[type=checkbox] {
+  float: left;
+  text-align: left;
+}
+
+.main-label {
+  float: left;
+}
+
+.main-label-random {
+  width: 130px;
+  word-break: break-word;
+}
